@@ -1,0 +1,25 @@
+@import './variables.scss';
+
+.flex-default {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn1 {
+ @extend .flex-default;
+ width: 300px;
+ height: 40px;
+ margin: 0 auto;
+ font-family: $accent-font;
+ color: $base-black;
+ border: 1px solid $color2;
+ border-radius: 5px;
+ transition: all 0.2s;
+ text-decoration: none;
+ &:hover, &:focus {
+   text-decoration: none;
+   color: $base-black;
+   background-color: $color2;
+ }
+}
