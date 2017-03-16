@@ -68,7 +68,7 @@
       }
     },
     methods: {
-      changePlaybackPosition () {
+      changePlaybackPosition (event) {
         let lengthinSec = this.song.length / 1000
         this.movePlayhead(event)
         audioPlayer.currentTime = lengthinSec * this.clickPercent(event)
@@ -82,7 +82,7 @@
       movePlayhead(event) {
         this.progress = this.getPosition(timeline)
       },
-      update () {
+      update (event) {
         let vm = this
         vm.playtime = Math.floor(event.target.currentTime) * 1000
         vm.progress = (vm.playtime / vm.song.length) * 100  
@@ -140,7 +140,7 @@
         }
         vm.song = songs[vm.currentTrack]
       },
-      changeVolume () {
+      changeVolume (event) {
         this.volume = event.target.value
         audioPlayer.volume = this.volume / 10
       }
