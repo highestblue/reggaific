@@ -110,6 +110,7 @@
         this.progress = 0
         this.playtime = 0
         this.isLoop = false
+        this.isPlaying = true
       },
       toggleLoop () {
         audioPlayer.loop = !audioPlayer.loop

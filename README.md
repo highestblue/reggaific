@@ -1,21 +1,37 @@
-# reggaific
+# Reggaific
 
-> A Vue.js project
+---
 
-## Build Setup
+## Demo
 
-``` bash
-# install dependencies
-npm install
+Check out the [DEMO](https://reggaific.firebaseapp.com/)
 
-# serve with hot reload at localhost:8080
-npm run dev
+## Author
 
-# build for production with minification
-npm run build
+Grant Lee - Grant Lee is a Full-Stack Web Developer with a focus in front-end. He is currently working as Project Leader and Front-End Developer for Vertigo Games America.
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+## Description
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+Music player webapp for reggae lovers. Best reggae handpicked for you!
+
+## Goal
+
+To spoonfeed jewels of reggae music to the users
+
+## Target Audience
+
+- Reggae fanatics
+- Music lovers
+- Multi-device users
+
+## Features
+
+- Responsive
+- Playlist
+- Search by title or artist name
+- Play & pause
+- Skip to previous & next
+- Loop
+- Volume control
+- Change playback position
+- Timeline feedback
